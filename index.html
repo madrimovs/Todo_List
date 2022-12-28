@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+  </head>
+  <body class="bg-dark text-light">
+    <header></header>
+    <!-- 
+    <main>
+      <div class="container my-3">
+        <h2 class="text-center">Todo list</h2>
+        <div class="mx-auto w-50">
+          <form class="form-conttrol" id="form">
+            <input
+              type="text"
+              name="input"
+              class="form-control"
+              placeholder="Add todo..."
+            />
+            <input
+              type="submit"
+              class="btn btn-warning form-control mt-2"
+              value="Add todo"
+            />
+            <button
+              style="display: none"
+              id="clear-btn"
+              class="btn btn-danger w-100 mt-2"
+            >
+              Clear todos
+            </button>
+            <h2 class="text-center text-secondary" id="error"></h2>
+          </form>
+          <ul
+            id="todo-list"
+            class="list-unstyled bg-secondary p-3 my-5 rounded"
+          ></ul>
+        </div>
+      </div>
+    </main> -->
+
+    <main>
+      <div class="container col-5 mt-5">
+        <h1 class="text-center">Todo list</h1>
+        <form id="form">
+          <input
+            id="input"
+            type="text"
+            class="form-control"
+            placeholder="Add todo..."
+          />
+          <input
+            id="submitBtn"
+            type="submit"
+            value="Add todo"
+            class="btn btn-warning form-control mt-2"
+          />
+          <input
+            style="display: none"
+            id="clearBtn"
+            type="submit"
+            class="btn btn-danger form-control mt-2"
+            value="Clear todos"
+          />
+        </form>
+        <div class="mt-5">
+          <ul
+            id="list-group"
+            class="bg-secondary list-unstyled p-4 rounded"
+          ></ul>
+        </div>
+        <h3 class="text-secondary text-center" id="error"></h3>
+      </div>
+    </main>
+
+    <footer></footer>
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>

@@ -29,6 +29,7 @@ elForm.addEventListener("submit", function (evt) {
 
     for (let i = 0; i < products.length; i++) {
       const element = products[i];
+
       const elLi = document.createElement("li");
 
       elLi.textContent = element;
